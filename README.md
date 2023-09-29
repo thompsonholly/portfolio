@@ -3,4 +3,4 @@ Holly's amazing portfolio showcasing her talents and projects
 
 [Holly's Portfolio](https://thompsonholly.github.io/portfolio/)
 
-![screenshot](homework/unit-02/hollysportfolio.jpg)
+![screenshot](./unit-02/hollysportfolio.jpg)
