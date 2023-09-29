@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background-image: url("../../images/smallflowers.jpg");
+  background-image: url("../../images/bluedoor.jpeg");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ nav ul {
   min-width: 400px;
   list-style-type: none;
   background-color: cadetblue;
-  padding: 1rem;
+  padding: 20px;
 }
 
 nav a {
@@ -45,8 +45,6 @@ main {
   gap: 30px;
 }
 
-
-
 section {
   display: flex;
   flex-direction: row;
@@ -63,23 +61,6 @@ h1 {
   opacity: 70%;
 }
 
-/* #about-me-container {
-  display: flex;
-  justify-content: end;
-  flex-direction: column;
-  align-items: flex-end;
-} */
-
-/* #about-me {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 50%;
-  color: black;
-
-
-} */
-
 .section-header {
   width: 30%;
   font-size: 36px;
@@ -91,113 +72,69 @@ h1 {
 }
 
 .section-content {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-
-}
-
-.about-me-description {
   text-align: center;
-
-  /* width: 50%; */
-  border: 5px solid blue;
-  /* background-image: url("../../images/bluestone.jpeg"); */
+  font-size: 16pt;
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(42, 126, 160, 1) 47%, rgba(35, 128, 145, 1) 89%);
+  opacity: 55%;
   background-size: cover;
+  font-style: outline;
   margin-right: auto;
   color: white;
+  padding: 10px;
+  border: 5px solid darkgray;
+
 }
 
-/* .work-container {
+#about {
+  margin-left: 75px;
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
   text-align: center;
-} */
-
-/* .work-description {
-  display: flex;
-  justify-content: end;
-  background-image: url("../../images/pinkbluerocks.jpeg");
-  background-size: cover;
-} */
-
-/* #resume {
-  color: white;
-} */
-
-.resume-container {
-  display: flex;
-  flex-direction: left;
 }
 
-.resume-description {
+.pic {
+  height: 300px;
+  /* width: 100px; */
   display: flex;
-  flex-direction: row;
-  background-image: url("../../images/pinkbubbles.jpeg");
-  background-size: cover;
-}
-
-.contact-me-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.contact-me-contents {
-  text-align: center;
-  background-image: url("../../images/bluesmoke.jpeg");
-  background-size: cover;
-  width: 50%;
-  color: white;
-}
-
-img {
-  height: 20%;
-  width: 20%;
-  display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   border-radius: 50%;
+  object-fit: cover;
+  margin-top: 80px;
+  margin-right: 150px;
+}
+
+section ul {
+  list-style-type: none;
+}
+
+section a {
+  display: flex;
+  justify-content: space-around;
+  text-align: end;
+  list-style-type: none;
+  color: white;
+  padding: 10px;
 }
 
 footer {
-  display: flex;
+  display: flex-end;
   justify-content: center;
   padding: 2%;
   background-color: cadetblue;
+  background-size: cover;
   color: whitesmoke;
   margin-top: auto;
+  text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 992px) {
   header {
-    background-color: cadetblue;
+    background: cadetblue;
   }
 }
 
-/* section {
-  color: white;
-} */
-
-* {
-  text-decoration: none;
-  /* cursor: none; */
-}
-
-a {
-  cursor: pointer;
-}
-
-/* }
-header {
-backgroud-img: url("sample.jpg");
-background-size: cover;
-} */
-
-/* div.container {
- display: flex
- justify-content: space-between  
- 
- 
- main {
-  flex: 1 0 70%
-  margin top: 30pn*/
+@media screen and (max-width: 768px) {
+  .section-header .section-content {
+    width: 100%;
+  }
